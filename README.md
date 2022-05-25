@@ -39,7 +39,7 @@ A játékost több órán át, különböző játékosok ellen tanítva kaptuk m
 
 ## A játékos tesztelése
 
-Az alábbi videóban látható öbb, hasonló súlyokkal futó agent egymás ellen:
+Az alábbi videóban látható több, hasonló súlyokkal futó agent egymás ellen:
 
 https://user-images.githubusercontent.com/82844655/170246233-5e5a7e97-b08f-4598-8acb-39f2d20c7159.mp4
 

@@ -35,3 +35,12 @@ Ezek kezdetben random értékek voltak, melyek mindegyikével a játékot 5-szö
 A szülőket párba állítva, a 0 és 1 közötti súlyértékeket 32bites bináris számokká alakítva hajtottuk végre a keresztezést. A számokat egy random ponton elvágva lettek keresztezve a szülők, majd a mutáció során az új egyedek mindegyik bitje egy 0.05-nek választott valószínűséggel fordul át. Ezután a súlyokat visszaalakítjuk decimális értékekké, és megkaptuk a következő generáció egyedeit.
 
 A játékost több órán át, különböző játékosok ellen tanítva kaptuk meg a végleges súlyainkat.
+
+
+## A játékos tesztelése
+
+Az alábbi videóban látható öbb, hasonló súlyokkal futó agent egymás ellen:
+
+https://user-images.githubusercontent.com/82844655/170246233-5e5a7e97-b08f-4598-8acb-39f2d20c7159.mp4
+
+

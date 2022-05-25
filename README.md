@@ -5,12 +5,13 @@ Az alábbi fájlban az "Adaptív rendszerek modellezése" tárgy AdaptIO játék
 ## A játékos stratégiája
 
 Az agentnek a játék során folyamatosan 81 mezőből áll a látótere, az alábbi formában:
-<img src="https://user-images.githubusercontent.com/82844655/170237011-0b819a23-5354-4739-9eec-ff33574b53d3.png" width="200" height="200">
+
+<img src="https://user-images.githubusercontent.com/82844655/170237011-0b819a23-5354-4739-9eec-ff33574b53d3.png" width="400" height="400">
 
 
 És a lépései pedig az alábbiak lehetnek:
 
-![Képernyőkép 2022-05-25 120252](https://user-images.githubusercontent.com/82844655/170237092-7003ad16-b784-45d1-99b3-1a125090f011.png)
+<img src="https://user-images.githubusercontent.com/82844655/170237092-7003ad16-b784-45d1-99b3-1a125090f011.png" width="400" height="400">
 
 
 Az X és Y irányú lépéseket külön vizsgáltuk. Minden döntéshozatalnál beleszámoltuk az összes látóteren belüli mező értékét a döntésbe. Attól függően, hogy az adott mezőn fal, étel, vagy másik játékos található, különbözően adtuk hozzá az értékét az összesített X-hez, illetve Y-hoz.

@@ -5,10 +5,12 @@ Az alábbi fájlban a "Adaptív rendszerek modellezése" tárgy AdaptIO játék�
 ## A játékos stratégiája
 
 A játékosn a játék során folyamatosan  81 mezőből áll a látótere,  az alábbi formában:
+
 ![Képernyőkép 2022-05-25 120222](https://user-images.githubusercontent.com/82844655/170237011-0b819a23-5354-4739-9eec-ff33574b53d3.png)
 
 
 És a lépései pedig az alábbiak lehetnek:
+
 ![Képernyőkép 2022-05-25 120252](https://user-images.githubusercontent.com/82844655/170237092-7003ad16-b784-45d1-99b3-1a125090f011.png)
 
 

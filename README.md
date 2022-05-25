@@ -1,4 +1,5 @@
 # AdaptIO
+### Demeter Gergő, Menyhárt Levente Tibor
 
 Az alábbi fájlban az "Adaptív rendszerek modellezése" tárgy AdaptIO játékához készített agent kerül bemutatásra.
 
@@ -45,4 +46,4 @@ Az alábbi videóban látható több, hasonló súlyokkal futó agent egymás el
 
 https://user-images.githubusercontent.com/82844655/170246233-5e5a7e97-b08f-4598-8acb-39f2d20c7159.mp4
 
-
+## A futtasáshoz szükséges python csomagok és fájlok

@@ -26,5 +26,10 @@ Mivel a kaják is nagyobb valószínűséggel keletkeznek középen, illetve nem
 
 Ezeket az értékeket minden lépésnél összegzi az agent, és ez alapján dönti el, hogy merre lépjen. Egy szintén súlyfüggő érték az, hogy legalább mekkora különbség legyen az X és Y-ban kiszámolt értékek között ahhoz, hogy azt dominánsnak ítélje, és csak abban az irányban, vízszintesen, vagy függőlegesen lépjen. Enélkül a feltétel nélkül mindig csak átlósan lépne.
 
+Ezzel együtt tehát összesen 8 súlyunk lett, melyet a tanítás során módosítottunk
+
 ## A tanítás
 
+A tanítás során genetikus algoritmust használtunk. Minden generációban 10 egyedünk volt, melyek mindegyike tartalmazta a 8 súlyt, 0 és 1 közötti float értékekként.
+Ezek kezdetben random értékek voltak, melyek mindegyikével a játékot 5-ször lefuttattuk. A futások során az elért eredmények összege lett az adott egyed fittnesse. A 10 egyedből ezután a fittnessek alapján random kiválasztottunk 20 szülőt, melyekből lettek az új egyedek. Így a nagyobb fittnesst elért egyedek ezzel arányosan nagyobb valószínűséggel lettek kiválasztva szülőnek.
+A szülőket párba állítva, a 0 és 1 közötti súlyértékeket 32bites bináris számokká alakítva hajtottuk végre a keresztezést. A számokat egy random ponton elvágva lettek keresztezve a szülők, majd a mutáció során az új egyedek mindegyik bitje egy 0.05-nek választott valószínűséggel fordul át. Ezután a súlyokat visszaalakítjuk decimális értékekké, és megkaptuk a következő generáció egyedeit.

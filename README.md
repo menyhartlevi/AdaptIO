@@ -39,6 +39,8 @@ A szülőket párba állítva, a 0 és 1 közötti súlyértékeket 32bites bin�
 
 A játékost több órán át, különböző játékosok ellen tanítva kaptuk meg a végleges súlyainkat.
 
+A tanítás során egy módosított main.py fájlt futtatva, a players.py-ban lévő játékos algoritmusokat futtatva tanítottuk az algoritmust. Ezek a fájlok is feltöltésre kerültek.
+
 
 ## A játékos tesztelése
 

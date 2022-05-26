@@ -47,3 +47,8 @@ Az alábbi videóban látható több, hasonló súlyokkal futó agent egymás el
 https://user-images.githubusercontent.com/82844655/170246233-5e5a7e97-b08f-4598-8acb-39f2d20c7159.mp4
 
 ## A futtasáshoz szükséges python csomagok és fájlok
+
+A fájlban eredetileg is beimportált csomagokon nincs szükség másikra a futtatáshoz.
+
+
+A program a futás során egy txt fájlba menti ki az előző pozíciót, ezt a következő lépésben hasonlítja össze az aktuálissal, tehát a 2-vel ezelőtti lépés megjegyzéséhez van erre szükség. Ez az 'oldoldpos.txt' szükséges a kód futtatásához, így ez is feltöltésre került.

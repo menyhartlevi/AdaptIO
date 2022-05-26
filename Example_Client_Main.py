@@ -87,14 +87,14 @@ class RemoteNaiveHunterStrategy:
             jsonData = fulljson["payload"]
             if "pos" in jsonData.keys() and "tick" in jsonData.keys() and "active" in jsonData.keys() and "size" in jsonData.keys() and "vision" in jsonData.keys():
                 if self.oldpos is not None:
-                    oldoldpos = np.loadtxt('oldoldpos1.txt')
+                    oldoldpos = np.loadtxt('oldoldpos.txt')
                     if tuple(self.oldpos) == tuple(jsonData["pos"]):
                         self.oldcounter += 1
                     #else:
                         #self.oldcounter = 0
                     elif tuple(oldoldpos) == tuple(jsonData["pos"]):
                         self.oldcounter += 1
-                    np.savetxt('oldoldpos1.txt', np.asarray(self.oldpos))
+                    np.savetxt('oldoldpos.txt', np.asarray(self.oldpos))
 
                 if jsonData["active"]:
                     self.oldpos = jsonData["pos"].copy()
